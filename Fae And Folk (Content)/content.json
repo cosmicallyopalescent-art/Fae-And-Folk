@@ -1,0 +1,167 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/HagStone", "FromFile": "assets/HagStone.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/WitchBells", "FromFile": "assets/WitchBells.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/WispDust", "FromFile": "assets/WispDust.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/LunarNectar", "FromFile": "assets/LunarNectar.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/LunaLatte", "FromFile": "assets/LunaLatte.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/SunTea", "FromFile": "assets/SunTea.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/SolarNectar", "FromFile": "assets/SolarNectar.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/RiverOpal", "FromFile": "assets/RiverOpal.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/GoldenRing", "FromFile": "assets/GoldenRing.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/MoonBlossom", "FromFile": "assets/MoonBlossom.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/Shimeji", "FromFile": "assets/Shimeji.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/HeartStone", "FromFile": "assets/HeartStone.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/SeaGlass", "FromFile": "assets/SeaGlass.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/SpiritOrchid", "FromFile": "assets/SpiritOrchid.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/StarTar", "FromFile": "assets/StarTar.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/WispSilk", "FromFile": "assets/WispSilk.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/SunPetal", "FromFile": "assets/SunPetal.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/VoidRoots", "FromFile": "assets/VoidRoots.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/WeepingBell", "FromFile": "assets/WeepingBell.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/FairyWings", "FromFile": "assets/FairyWings.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/FairyPhone", "FromFile": "assets/FairyPhone.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/BonePipe", "FromFile": "assets/BonePipe.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/DowsingRod", "FromFile": "assets/DowsingRod.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/FloweringCactus", "FromFile": "assets/FloweringCactus.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/Frog", "FromFile": "assets/Frog.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/BlushBluets", "FromFile": "assets/blush_bluets.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/BrownBonnet", "FromFile": "assets/BrownBonnet.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/GildedPinecone", "FromFile": "assets/GildedPinecone.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/FrostStar", "FromFile": "assets/FrostStar.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/GloomGourd", "FromFile": "assets/GloomGourd.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/ForestEssence", "FromFile": "assets/ForestEssence.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/SpiritAltar", "FromFile": "assets/SpiritAltar.png" },
+        { "Action": "Load", "Target": "Mods/cosmicopal.FaeAndFolk/Cauldron", "FromFile": "assets/Cauldron.png" },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "cosmicopal.HagStone": { "Name": "Hag Stone", "DisplayName": "Hag Stone", "Description": "Use to unlock Spirit Sight. One-time use.", "Type": "Basic", "Category": -2, "Price": 300, "Texture": "Mods/cosmicopal.FaeAndFolk/HagStone", "SpriteIndex": 0 },
+                "cosmicopal.WitchBells": { "Name": "Witch Bells", "DisplayName": "Witch Bells", "Description": "Use to unlock Watcher's Protection. One-time use.", "Type": "Basic", "Category": -81, "Price": 150, "Texture": "Mods/cosmicopal.FaeAndFolk/WitchBells", "SpriteIndex": 0, "Edibility": 10 },
+                "cosmicopal.WispDust": { "Name": "Wisp Dust", "DisplayName": "Wisp Dust", "Description": "Sparkling residue left behind by a wisp.", "Type": "Basic", "Category": -28, "Price": 500, "Texture": "Mods/cosmicopal.FaeAndFolk/WispDust", "SpriteIndex": 0 },
+                "cosmicopal.LunarNectar": { "Name": "Lunar Nectar", "DisplayName": "Lunar Nectar", "Description": "A glowing syrup harvested under a full moon.", "Type": "Basic", "Category": -26, "Price": 800, "Texture": "Mods/cosmicopal.FaeAndFolk/LunarNectar", "SpriteIndex": 0, "Edibility": 100 },
+                "cosmicopal.LunaLatte": { "Name": "Luna Latte", "DisplayName": "Luna Latte", "Description": "A coffee brewed with moon water. It energizes the spirit.", "Type": "Cooking", "Category": -7, "Price": 450, "Texture": "Mods/cosmicopal.FaeAndFolk/LunaLatte", "SpriteIndex": 0, "Edibility": 60, "Buffs": [{ "Id": "Speed", "Duration": 120, "Amount": 1 }, { "Id": "Luck", "Duration": 120, "Amount": 1 }] },
+                "cosmicopal.SunTea": { "Name": "Sun Tea", "DisplayName": "Sun Tea", "Description": "Tea leaves steeped in direct sunlight for hours.", "Type": "Cooking", "Category": -7, "Price": 250, "Texture": "Mods/cosmicopal.FaeAndFolk/SunTea", "SpriteIndex": 0, "Edibility": 45, "Buffs": [{ "Id": "Energy", "Duration": 180, "Amount": 30 }] },
+                "cosmicopal.SolarNectar": { "Name": "Solar Nectar", "DisplayName": "Solar Nectar", "Description": "Golden syrup that radiates warmth.", "Type": "Basic", "Category": -26, "Price": 800, "Texture": "Mods/cosmicopal.FaeAndFolk/SolarNectar", "SpriteIndex": 0, "Edibility": 100 },
+                "cosmicopal.RiverOpal": { "Name": "River Opal", "DisplayName": "River Opal", "Description": "Reflection of the stars.", "Type": "Minerals", "Category": -2, "Price": 400, "Texture": "Mods/cosmicopal.FaeAndFolk/RiverOpal", "SpriteIndex": 0 },
+                "cosmicopal.GoldenRing": { "Name": "Golden Ring", "DisplayName": "Golden Ring", "Description": "Use to gain Midas' Touch. One-time use.", "Type": "Ring", "Category": -96, "Price": 1000, "Texture": "Mods/cosmicopal.FaeAndFolk/GoldenRing", "SpriteIndex": 0 },
+                "cosmicopal.MoonBlossom": { "Name": "Moon Blossom", "DisplayName": "Moon Blossom", "Description": "Glows softly in the dark.", "Type": "Basic", "Category": -81, "Price": 200, "Texture": "Mods/cosmicopal.FaeAndFolk/MoonBlossom", "SpriteIndex": 0 },
+                "cosmicopal.Shimeji": { "Name": "Shimeji", "DisplayName": "Shimeji", "Description": "Small, delicate mushrooms.", "Type": "Basic", "Category": -81, "Price": 75, "Texture": "Mods/cosmicopal.FaeAndFolk/Shimeji", "SpriteIndex": 0, "Edibility": 20 },
+                "cosmicopal.HeartStone": { "Name": "Heart Stone", "DisplayName": "Heart Stone", "Description": "Use to learn Heart's Harmony. One-time use.", "Type": "Minerals", "Category": -2, "Price": 150, "Texture": "Mods/cosmicopal.FaeAndFolk/HeartStone", "SpriteIndex": 0 },
+                "cosmicopal.SeaGlass": { "Name": "Sea Glass", "DisplayName": "Sea Glass", "Description": "Salt-magic glass.", "Type": "Basic", "Category": -2, "Price": 100, "Texture": "Mods/cosmicopal.FaeAndFolk/SeaGlass", "SpriteIndex": 0 },
+                "cosmicopal.SpiritOrchid": { "Name": "Spirit Orchid", "DisplayName": "Spirit Orchid", "Description": "A ghostly white flower.", "Type": "Basic", "Category": -81, "Price": 350, "Texture": "Mods/cosmicopal.FaeAndFolk/SpiritOrchid", "SpriteIndex": 0 },
+                "cosmicopal.StarTar": { "Name": "Star Tar", "DisplayName": "Star Tar", "Description": "Sticky, sparkling substance.", "Type": "Basic", "Category": -28, "Price": 250, "Texture": "Mods/cosmicopal.FaeAndFolk/StarTar", "SpriteIndex": 0 },
+                "cosmicopal.WispSilk": { "Name": "Wisp Silk", "DisplayName": "Wisp Silk", "Description": "Spun spirit light.", "Type": "Basic", "Category": -28, "Price": 600, "Texture": "Mods/cosmicopal.FaeAndFolk/WispSilk", "SpriteIndex": 0 },
+                "cosmicopal.SunPetal": { "Name": "Sun Petal", "DisplayName": "Sun Petal", "Description": "Follows the sun.", "Type": "Basic", "Category": -81, "Price": 120, "Texture": "Mods/cosmicopal.FaeAndFolk/SunPetal", "SpriteIndex": 0 },
+                "cosmicopal.VoidRoots": { "Name": "Void Roots", "DisplayName": "Void Roots", "Description": "Roots that grew in the shadow.", "Type": "Basic", "Category": -81, "Price": 180, "Texture": "Mods/cosmicopal.FaeAndFolk/VoidRoots", "SpriteIndex": 0 },
+                "cosmicopal.WeepingBell": { "Name": "Weeping Bell", "DisplayName": "Weeping Bell", "Description": "Rings like crystal.", "Type": "Basic", "Category": -81, "Price": 140, "Texture": "Mods/cosmicopal.FaeAndFolk/WeepingBell", "SpriteIndex": 0 },
+                "cosmicopal.FairyWings": { "Name": "Fae Wings", "DisplayName": "Fae Wings", "Description": "Iridescent wings.", "Type": "Basic", "Category": -28, "Price": 500, "Texture": "Mods/cosmicopal.FaeAndFolk/FairyWings", "SpriteIndex": 0 },
+                "cosmicopal.FairyPhone": { "Name": "Fairy Phone", "DisplayName": "Fairy Phone", "Description": "Humming with static.", "Type": "Basic", "Category": 0, "Price": 1000, "Texture": "Mods/cosmicopal.FaeAndFolk/FairyPhone", "SpriteIndex": 0 },
+                "cosmicopal.BonePipe": { "Name": "Bone Pipe", "DisplayName": "Bone Pipe", "Description": "Use to learn Wild Speech. One-time use.", "Type": "Basic", "Category": -2, "Price": 120, "Texture": "Mods/cosmicopal.FaeAndFolk/BonePipe", "SpriteIndex": 0 },
+                "cosmicopal.DowsingRod": { "Name": "Dowsing Rod", "DisplayName": "Dowsing Rod", "Description": "Use to unlock Nature's Guidance. One-time use.", "Type": "Basic", "Category": 0, "Price": 300, "Texture": "Mods/cosmicopal.FaeAndFolk/DowsingRod", "SpriteIndex": 0 },
+                "cosmicopal.FloweringCactus": { "Name": "Flowering Cactus", "DisplayName": "Flowering Cactus", "Description": "A desert survivor.", "Type": "Basic", "Category": -81, "Price": 100, "Texture": "Mods/cosmicopal.FaeAndFolk/FloweringCactus", "SpriteIndex": 0 },
+                "cosmicopal.Frog": { "Name": "Frog Idol", "DisplayName": "Frog Idol", "Description": "Use to unlock Aquatic Affinity. One-time use.", "Type": "Basic", "Category": -23, "Price": 50, "Texture": "Mods/cosmicopal.FaeAndFolk/Frog", "SpriteIndex": 0 },
+                "cosmicopal.BlushBluets": { "Name": "Blush Bluets", "DisplayName": "Blush Bluets", "Description": "Tiny pink flowers.", "Type": "Basic", "Category": -81, "Price": 60, "Texture": "Mods/cosmicopal.FaeAndFolk/BlushBluets", "SpriteIndex": 0 },
+                "cosmicopal.BrownBonnet": { "Name": "Brown Bonnet", "DisplayName": "Brown Bonnet", "Description": "Sturdy fungal growth.", "Type": "Basic", "Category": -81, "Price": 40, "Texture": "Mods/cosmicopal.FaeAndFolk/BrownBonnet", "SpriteIndex": 0 },
+                "cosmicopal.GildedPinecone": { "Name": "Gilded Pinecone", "DisplayName": "Gilded Pinecone", "Description": "Use to gain Nature's Bounty. One-time use.", "Type": "Basic", "Category": -28, "Price": 200, "Texture": "Mods/cosmicopal.FaeAndFolk/GildedPinecone", "SpriteIndex": 0 },
+                "cosmicopal.FrostStar": { "Name": "Frost Star", "DisplayName": "Frost Star", "Description": "Frozen fragment.", "Type": "Basic", "Category": -81, "Price": 180, "Texture": "Mods/cosmicopal.FaeAndFolk/FrostStar", "SpriteIndex": 0 },
+                "cosmicopal.GloomGourd": { "Name": "Gloom Gourd", "DisplayName": "Gloom Gourd", "Description": "A shadowy gourd.", "Type": "Basic", "Category": -75, "Price": 90, "Texture": "Mods/cosmicopal.FaeAndFolk/GloomGourd", "SpriteIndex": 0, "Edibility": 20 },
+                "cosmicopal.ForestEssence": { "Name": "Forest Essence", "DisplayName": "Forest Essence", "Description": "Foraging +3 Buff.", "Type": "Basic", "Category": -28, "Price": 100, "Texture": "Mods/cosmicopal.FaeAndFolk/ForestEssence", "SpriteIndex": 0 }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "cosmicopal.SpiritAltar": {
+                    "Name": "Spirit Altar",
+                    "DisplayName": "Spirit Altar",
+                    "Description": "Weaves light.",
+                    "Price": 2000,
+                    "Texture": "Mods/cosmicopal.FaeAndFolk/SpiritAltar",
+                    "SpriteIndex": 0
+                },
+                "cosmicopal.Cauldron": {
+                    "Name": "Ancient Cauldron",
+                    "DisplayName": "Ancient Cauldron",
+                    "Description": "Brews essences.",
+                    "Price": 1500,
+                    "Texture": "Mods/cosmicopal.FaeAndFolk/Cauldron",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "Entries": {
+                "cosmicopal.Cauldron": {
+                    "OutputRules": [
+                        {
+                            "Id": "SolarNectar",
+                            "Triggers": [ { "Id": "ItemPlacedInMachine", "RequiredItemId": "cosmicopal.SunBlossom" } ],
+                            "OutputItem": [ { "ItemId": "cosmicopal.SolarNectar" } ],
+                            "MinutesUntilReady": 60
+                        },
+                        {
+                            "Id": "LunarNectar",
+                            "Triggers": [ { "Id": "ItemPlacedInMachine", "RequiredItemId": "cosmicopal.MoonBlossom" } ],
+                            "OutputItem": [ { "ItemId": "cosmicopal.LunarNectar" } ],
+                            "MinutesUntilReady": 60
+                        },
+                        {
+                            "Id": "ForestEssence",
+                            "Triggers": [ { "Id": "ItemPlacedInMachine", "RequiredItemId": "cosmicopal.BrownBonnet" } ],
+                            "OutputItem": [ { "ItemId": "cosmicopal.ForestEssence" } ],
+                            "MinutesUntilReady": 60
+                        }
+                    ]
+                },
+                "cosmicopal.SpiritAltar": {
+                    "OutputRules": [
+                        {
+                            "Id": "WispDust",
+                            "Triggers": [ { "Id": "ItemPlacedInMachine", "RequiredItemId": "cosmicopal.WispDust" } ],
+                            "OutputItem": [ { "ItemId": "cosmicopal.WispDust" } ],
+                            "MinutesUntilReady": 120
+                        },
+                        {
+                            "Id": "WispSilk",
+                            "Triggers": [ { "Id": "ItemPlacedInMachine", "RequiredItemId": "cosmicopal.SpiritOrchid" } ],
+                            "OutputItem": [ { "ItemId": "cosmicopal.WispSilk", "MinStack": 1, "MaxStack": 1, "Quality": 2 } ],
+                            "MinutesUntilReady": 120
+                        },
+                        {
+                            "Id": "FairyDust",
+                            "Triggers": [ { "Id": "ItemPlacedInMachine", "RequiredItemId": "cosmicopal.FaeWings" } ],
+                            "OutputItem": [ { "ItemId": "872" } ],
+                            "MinutesUntilReady": 60
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "cosmicopal.MoonLatte": "395 1 cosmicopal.LunarNectar 1/10 10/cosmicopal.MoonLatte/default",
+                "cosmicopal.SunTea": "614 1 cosmicopal.SolarNectar 1/10 10/cosmicopal.SunTea/default"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "cosmicopal.SpiritAltar": "390 50 cosmicopal.SpiritOrchid 1 336 2/Home/cosmicopal.SpiritAltar/true/null",
+                "cosmicopal.Cauldron": "335 5 382 5 cosmicopal.HagStone 1/Home/cosmicopal.Cauldron/true/null",
+                "cosmicopal.FairyWings": "cosmicopal.WispSilk 5 cosmicopal.RiverOpal 1/Home/cosmicopal.FaeWings/false/null",
+                "cosmicopal.BonePipe": "881 5 cosmicopal.VoidRoots 1/Home/cosmicopal.BonePipe/false/null",
+                "cosmicopal.DowsingRod": "388 20 334 1 cosmicopal.ForestEssence 1/Home/cosmicopal.DowsingRod/false/null"
+            }
+        }
+    ]
+}

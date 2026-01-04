@@ -1,0 +1,39 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Maps/ThistleTentSheet",
+            "FromFile": "assets/tent_{{season}}.png"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "FromFile": "assets/tent.tmx",
+            "ToArea": { "X": 51, "Y": 25, "Width": 4, "Height": 4 }, 
+            "PatchMode": "Overlay"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "ThistleTent": {
+                    "DisplayName": "Thistle's Tent",
+                    "Map": "Maps/ThistleTentInterior",
+                    "Type": "Indoors"
+                }
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "Entries": [
+                {
+                    "Action": "Add",
+                    "Target": "Properties",
+                    "Value": { "Warp": "53 28 ThistleTent 5 9" }
+                }
+            ]
+        }
+    ]
+}

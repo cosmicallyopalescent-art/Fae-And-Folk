@@ -1,0 +1,22 @@
+{
+  "Name": "The Witch of Cindersap Forest (Content)",
+  "Author": "cosmicopal",
+  "Version": "1.5.0",
+  "Description": "Assets and Data for Thistle the Witch. Compatible with Fae and Folk.",
+  "UniqueID": "cosmicopal.TheWitch.CP",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+     {
+        "UniqueID": "cosmicopal.TheWitch",
+        "IsRequired": false
+     },
+     {
+        "UniqueID": "cosmicopal.FaeAndFolk.Content",
+        "IsRequired": false
+     }
+  ]
+}

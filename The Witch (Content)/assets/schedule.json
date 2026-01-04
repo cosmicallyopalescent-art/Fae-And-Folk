@@ -1,0 +1,27 @@
+{
+    "rain": "600 Forest 53 29 2/900 WizardHouse 4 18 2/2000 Forest 53 29 2",
+    "rain_Tue": "600 Forest 53 29 2/1100 SeedShop 7 19 0/1600 Forest 53 29 2",
+    
+    "spring": "600 Forest 53 29 2/800 Forest 88 20 1 square_3_3/1400 ArchaeologyHouse 4 18 2 square_3_3/1900 Forest 53 29 2",
+    "spring_Fri": "600 Forest 53 29 2/1200 Town 45 70 2/1600 Saloon 18 20 2/2100 Forest 53 29 2",
+    "spring_13": "600 Forest 53 29 2/1200 Town 15 55 1/2200 Forest 53 29 2",
+    "spring_24": "600 Forest 53 29 2/900 Forest 53 29 2",
+
+    "summer": "600 Forest 53 29 2/830 Forest 20 30 2 square_4_4/1400 Forest 30 90 0/1900 Forest 53 29 2",
+    "summer_Sun": "600 Forest 53 29 2/1000 Mountain 45 20 2 square_3_5/1800 Forest 53 29 2",
+    "summer_11": "600 Forest 53 29 2/1030 Beach 20 25 2/1900 Forest 53 29 2",
+    "summer_18": "600 Forest 53 29 2/1030 Hospital 12 14 2/1600 Forest 53 29 2",
+    "summer_Fri": "600 Forest 53 29 2/1200 Town 45 70 2/1600 Saloon 18 20 2/2100 Forest 53 29 2",
+
+    "fall": "600 Forest 53 29 2/900 Town 103 90 2 square_3_3/1600 Forest 53 29 2",
+    "fall_Tue": "600 Forest 53 29 2/1100 SeedShop 7 19 0/1600 Forest 53 29 2",
+    "fall_16": "600 Forest 53 29 2/1100 Town 15 55 1/2000 Forest 53 29 2",
+    "fall_27": "600 Forest 53 29 2/1200 Town 45 70 2/2200 Forest 53 29 2",
+
+    "winter": "600 Forest 53 29 2/1000 WizardHouse 3 15 3/1800 Forest 53 29 2",
+    "winter_Fri": "600 Forest 53 29 2/1600 Saloon 18 20 2/2100 Forest 53 29 2",
+    "winter_8": "600 Forest 53 29 2/900 Forest 53 29 2",
+    "winter_Sun": "600 Forest 53 29 2/1100 ScienceHouse 10 10 2/1700 Forest 53 29 2",
+
+    "Tue": "600 Forest 53 29 2/1100 SeedShop 7 19 0/1600 Forest 53 29 2"
+}

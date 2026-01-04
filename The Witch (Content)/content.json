@@ -1,0 +1,81 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Characters/Thistle",
+            "FromFile": "assets/sprites_thistle_{{season}}.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Thistle",
+            "FromFile": "assets/portraits_thistle_{{season}}.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Thistle": {
+                    "DisplayName": "Thistle",
+                    "BirthSeason": "Fall",
+                    "BirthDay": 27,
+                    "HomeRegion": "Forest",
+                    "Gender": "Female",
+                    "Age": "Adult",
+                    "Manner": "Neutral",
+                    "SocialAnxiety": "Shy",
+                    "Optimism": "Neutral",
+                    "CanBeRomanced": true,
+                    "HomeLocation": "Forest 53 29 2",
+                    "Spawn": "Forest 53 29 2", 
+                    "IntroductionWeight": 1.0
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Thistle": "cosmicopal.HagStone cosmicopal.WitchBells cosmicopal.WispDust cosmicopal.LunarNectar cosmicopal.HeartFruit cosmicopal.HeartNut cosmicopal.HeartStone cosmicopal.SpiritOrchid 769 768 595 422/-1 0/cosmicopal.LunaLatte cosmicopal.SunTea cosmicopal.HeartWillowSapling 72 257/388 390 92/cosmicopal.ForestEssence/380 378 384/The spirits whisper your name when you hold these... Thank you./That is a useful reagent. I will put it to good use./I... suppose I can find a use for this./...Why would you bring me this? It disrupts the flow./...Get that away from me."
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/schedules/Thistle",
+            "FromFile": "assets/schedule.json"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Thistle",
+            "FromFile": "assets/dialogue.json"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/MarriageDialogueThistle",
+            "FromFile": "assets/marriage_dialogue.json"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Forest",
+            "Entries": {
+                "9901002/f Thistle 500/t 600 1800/w sunny/l Forest": "music spring1/53 29/farmer 53 35 0 Thistle 53 29 2/skippable/pause 1000/speak Thistle \"One pinch of toadstool... two drops of dew...\"/pause 500/emote Thistle 8/speak Thistle \"Oh! You. You are the farmer.\"/pause 500/speak Thistle \"You're deep in the woods. Most people don't come this far. They're afraid of what might be lurking in the shadows.\"/pause 500/speak Thistle \"But there are no monsters here. Just the old earth, breathing. ...I trust you know how to be quiet?\"/end",
+                "9901006/f Thistle 1500/t 1900 2400/w rainy/l Forest": "music rain/53 29/farmer 53 35 0 Thistle 53 29 0/skippable/pause 1000/speak Thistle \"The rain... it washes the world clean.\"/pause 500/speak Thistle \"Sometimes, living out here... the silence gets loud. Does that make sense?\"/pause 500/speak Thistle \"I thought I wanted to be alone. But lately... when I see a light in your farmhouse window...\"/pause 1000/faceDirection Thistle 2/speak Thistle \"I wonder what it would be like to be warm.\"/end"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Saloon",
+            "Entries": {
+                "9901004/f Thistle 1000/t 1200 2200/d Fri/l Saloon": "music piano/25 18/farmer 25 22 0 Thistle 23 20 1 Gus 18 20 1/skippable/pause 1000/speak Gus \"Thistle! So good to see you. Can I get you the usual?\"/pause 500/speak Thistle \"Y-yes. Just cider. Please.\"/move farmer 0 -2 0/move farmer -1 0 0/speak Thistle \"Oh! @. I... I didn't expect to see you here.\"/speak Thistle \"It is loud. There are so many people.\"/question fork1 \"Are you okay?\"/fork kind/speak Thistle \"I think so. I just... I am used to trees. Trees do not stare.\"/jump Thistle/speak Thistle \"But... the cider is good. Will you sit with me?\"/end",
+                "kind": "speak Thistle \"Thank you. You are... grounding. Like a good root system.\"/end"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {
+                "9901008/f Thistle 2000/t 600 900/l Farm": "50s/64 15/farmer 64 16 2 Thistle 64 18 0/skippable/pause 1000/speak Thistle \"Good morning. I... I did not mean to intrude.\"/pause 500/speak Thistle \"I brought you this. It is a seed from my homeland... or what is left of it.\"/pause 500/speak Thistle \"It is shriveled now. Silent. It used to pulse with life, but the soil here is different.\"/pause 500/speak Thistle \"I think the curator at the museum might know how to revive it. I cannot do it myself. I am too close to the memory.\"/pause 1000/item cosmicopal.HeartNut 1/speak Thistle \"Please. Wake it up.\"/end"
+            }
+        }
+    ]
+}

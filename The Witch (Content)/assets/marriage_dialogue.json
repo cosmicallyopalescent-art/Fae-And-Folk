@@ -1,0 +1,56 @@
+{
+    "Rainy_Day_0": "The rain sounds different on this roof than it did in the woods. Safer, perhaps.",
+    "Rainy_Day_1": "I love days like this. We can stay inside and I can teach you how to read tea leaves.",
+    "Rainy_Day_2": "Don't go out without a charm. The rain spirits are mischievous today.",
+    "Rainy_Day_3": "I put a bucket out to catch the rainwater. It's the purest water for brewing.",
+    "Rainy_Day_4": "Listen to the thunder. The sky is clearing its throat.",
+
+    "Indoor_Day_0": "I was going to tidy up, but I got distracted by an old grimoire. Sorry.",
+    "Indoor_Day_1": "I like this house. It has good bones. And you... you keep the cold out.",
+    "Indoor_Day_2": "I made some soup. It's an old recipe. Don't ask about the herbs, just eat.",
+    "Indoor_Day_3": "It is nice to have someone to talk to. Usually, I just talk to the cat.",
+    "Indoor_Day_4": "I feel... settled. It is a strange feeling for a wanderer.",
+
+    "Outdoor_Day_0": "The soil on your farm is rich with magic. You have done well.",
+    "Outdoor_Day_1": "I'm going to walk the perimeter. Check the wards. Keep the bad things out.",
+    "Outdoor_Day_2": "Be careful in the mines today. I feel a tremor in the earth.",
+    "Outdoor_Day_3": "I saw a crow eyeing your crops. I told him to move along.",
+    "Outdoor_Day_4": "The air here is lighter than in the deep forest. It's easier to breathe.",
+
+    "Good_0": "You look strong today, my love. The farm life suits you.",
+    "Good_1": "I am glad I met you. I was ready to be alone forever. You changed that.",
+    "Good_2": "You are the only magic I need. ...That was cheesy. Forget I said it.",
+    "Good_3": "Here, I made this for you. It's a charm for stamina.",
+    "Good_4": "I love you. It scares me a little, how much.",
+    "Good_5": "You are warm. Like a hearth.",
+    "Good_6": "I used to think the town was full of fools. But you... you see things differently.",
+    "Good_7": "Let's go for a walk in the woods later. I want to show you a hidden grove.",
+    "Good_8": "My heart is full. Thank you.",
+    "Good_9": "I am working on a potion to make crops grow faster. It... mostly works.",
+
+    "Bad_0": "You seem distant. Is it the farm? Or is it me?",
+    "Bad_1": "I feel a coldness between us. And it's not the winter.",
+    "Bad_2": "Do not ignore me. I may be a witch, but I have feelings.",
+    "Bad_3": "I should go for a walk. Alone.",
+    "Bad_4": "Maybe I wasn't meant for this domestic life...",
+    
+    "funLeave": "I am going to the forest. I need to reconnect with the roots.",
+    "funReturn": "I am back. The forest sends its regards. I brought you a pinecone.",
+    
+    "patio": "The air is fresh out here. My crystals are charging nicely in the sun.",
+    
+    "spouseRoom": "Do you like my altar? Please don't touch the candles. They are... specific.",
+
+    "OneKid_0": "The little one has magic in them. I can feel it.",
+    "OneKid_1": "I hope they inherit your smile and my... well, maybe not my social skills.",
+    "OneKid_2": "Being a mother is the strongest spell I have ever cast.",
+
+    "TwoKids_0": "Two of them. The house is full of noise. I don't hate it.",
+    "TwoKids_1": "They were chasing a frog in the garden. I taught them how to catch it gently.",
+    "TwoKids_2": "Our family is growing. Like a well-tended garden.",
+
+    "spring_1": "Happy New Year, my love. Let's make this one count.",
+    "summer_1": "Summer is here. Try not to get heatstroke. I'm out of burn salve.",
+    "fall_1": "Autumn... my favorite. We should carve pumpkins tonight.",
+    "winter_1": "Winter. Stay close to me. I will keep you warm."
+}

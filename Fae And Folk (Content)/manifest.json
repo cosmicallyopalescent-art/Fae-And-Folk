@@ -1,0 +1,11 @@
+{
+    "Name": "Fae and Folk (Content)",
+    "Author": "cosmicopal",
+    "Version": "1.4.6",
+    "Description": "The core content pack adding magical items, crops, and resources.",
+    "UniqueID": "cosmicopal.FaeAndFolk.Content",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

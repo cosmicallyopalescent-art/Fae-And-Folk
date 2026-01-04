@@ -1,0 +1,17 @@
+{
+    "Name": "Fae Orchard",
+    "Author": "cosmicopal",
+    "Version": "1.0.0",
+    "Description": "Adds magical fruit trees to Stardew Valley.",
+    "UniqueID": "cosmicopal.FaeOrchard",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+           "UniqueID": "cosmicopal.FaeAndFolk.Content",
+           "IsRequired": true
+        }
+    ]
+}

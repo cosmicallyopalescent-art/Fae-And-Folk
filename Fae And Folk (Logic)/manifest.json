@@ -1,0 +1,8 @@
+﻿{
+  "Name": "Fae and Folk (Logic)",
+  "Author": "cosmicopal",
+  "Version": "1.4.6",
+  "UniqueID": "cosmicopal.FaeAndFolk.Logic",
+  "EntryDll": "FaeAndFolk.dll",
+  "MinimumApiVersion": "4.0.0"
+}

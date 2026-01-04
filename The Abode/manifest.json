@@ -1,0 +1,17 @@
+{
+    "Name": "The Witch's Abode",
+    "Author": "cosmicopal",
+    "Version": "1.0.0",
+    "Description": "Adds a physical tent home for Thistle in Cindersap Forest. Requires 'The Witch of Cindersap Forest'.",
+    "UniqueID": "cosmicopal.TheWitch.Abode",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+           "UniqueID": "cosmicopal.TheWitch.CP",
+           "IsRequired": true
+        }
+    ]
+}

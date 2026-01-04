@@ -1,0 +1,93 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Mods/cosmicopal.FaeOrchard/HeartFruit",
+            "FromFile": "assets/heart_fruit.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/cosmicopal.FaeOrchard/HeartSapling",
+            "FromFile": "assets/heart_sapling.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/cosmicopal.FaeOrchard/HeartWillowTree",
+            "FromFile": "assets/heart_willow_tree.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/cosmicopal.FaeOrchard/HeartNut",
+            "FromFile": "assets/heart_nut.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "cosmicopal.HeartNut": {
+                    "Name": "Heart Nut",
+                    "DisplayName": "Heart Nut",
+                    "Description": "An ancient, throbbing nut given to you by a witch. It feels warm to the touch.",
+                    "Type": "Arch",
+                    "Category": -2,
+                    "Price": 500,
+                    "Texture": "Mods/cosmicopal.FaeOrchard/HeartNut",
+                    "SpriteIndex": 0
+                },
+                "cosmicopal.HeartFruit": {
+                    "Name": "Heart Fruit",
+                    "DisplayName": "Heart Fruit",
+                    "Description": "A warm, pulsing fruit that grows on the rare Heart Willow. It smells like nostalgia.",
+                    "Type": "Basic",
+                    "Category": -79,
+                    "Price": 250,
+                    "Texture": "Mods/cosmicopal.FaeOrchard/HeartFruit",
+                    "SpriteIndex": 0,
+                    "Edibility": 45
+                },
+                "cosmicopal.HeartWillowSapling": {
+                    "Name": "Heart Willow Sapling",
+                    "DisplayName": "Heart Willow Sapling",
+                    "Description": "Takes 28 days to produce a mature Heart Willow tree. Bears fruit in the Fall.",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 3000,
+                    "Texture": "Mods/cosmicopal.FaeOrchard/HeartSapling",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/FruitTrees",
+            "Entries": {
+                "cosmicopal.HeartWillowSapling": {
+                    "DisplayName": "Heart Willow Tree",
+                    "Seasons": ["fall"],
+                    "Fruit": [
+                        {
+                            "Id": "cosmicopal.HeartFruit",
+                            "Count": 1
+                        }
+                    ],
+                    "Texture": "Mods/cosmicopal.FaeOrchard/HeartWillowTree"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/MuseumRewards",
+            "Entries": {
+                "cosmicopal.HeartNut": "cosmicopal.HeartWillowSapling 1/cosmicopal.HeartWillowSapling"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "cosmicopal.HeartWillowSapling": "cosmicopal.HeartNut 1/Field/cosmicopal.HeartWillowSapling 1/false/null"
+            }
+        }
+    ]
+}

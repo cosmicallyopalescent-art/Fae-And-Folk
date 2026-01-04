@@ -1,0 +1,10 @@
+﻿{
+  "Name": "The Witch of Cindersap Forest (Logic)",
+  "Author": "cosmicopal",
+  "Version": "1.5.0",
+  "Description": "C# Logic for Thistle the Witch. Requires the [CP] Content Pack.",
+  "UniqueID": "cosmicopal.TheWitch",
+  "EntryDll": "TheWitch.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": []
+}
